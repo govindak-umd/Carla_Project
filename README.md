@@ -1,3 +1,3 @@
 # Carla_Project
 
-This repo will document the Carla Project Developments. 
+### Step 1 - Begin Installation by following the instructions mentioned [here](https://carla.readthedocs.io/en/latest/build_linux/). 
