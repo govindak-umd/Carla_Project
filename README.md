@@ -19,7 +19,14 @@ To launch the Simulation ,due to some driver issue on NVIDIA GTX950M, Instead of
 try,
 
     $ ./CarlaUE4.sh -opengl
-  
+
+
+The reason for this can be found [here](https://carla.readthedocs.io/en/latest/adv_rendering_options/)
+
+Run this to launch in low graphics mode:
+
+    $ ./CarlaUE4.sh -opengl -quality-level=Low
+
 ### Step 2 - Setup NVIDIA Drivers to work on your Linux system, which can improve the Graphics of the Carla Visualizations.
 
 To do this, do the following steps:
