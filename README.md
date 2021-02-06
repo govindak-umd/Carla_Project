@@ -43,6 +43,10 @@ Steps to download Anaconda can be found [here](https://docs.anaconda.com/anacond
 
 Do this by shifting to **/opt/carla-simulator/PythonAPI/examples** directory and trying out the Python Example Scripts
 
+### Step 6 - Setting up Ros bridge
+
+Visit the [link](https://carla.readthedocs.io/en/latest/ros_installation/)
+
 ### Important Carla Commands
 
  - To launch Carla with a window
