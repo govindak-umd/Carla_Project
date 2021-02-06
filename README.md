@@ -42,3 +42,14 @@ Steps to download Anaconda can be found [here](https://docs.anaconda.com/anacond
 ### Step 5 - Verify all python installations
 
 Do this by shifting to **/opt/carla-simulator/PythonAPI/examples** directory and trying out the Python Example Scripts
+
+### Important Carla Commands
+
+ - To launch Carla with a window
+
+        $ ./CarlaUE4.sh -opengl -quality-level=Low
+
+ - To launch Carla without a window
+ 
+        $ DISPLAY= ./CarlaUE4.sh -opengl
+
