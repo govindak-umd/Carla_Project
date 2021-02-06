@@ -70,9 +70,7 @@ Create a new Conda environment with Python 2.7
 
 When done, do the following to setup the environment:
 
-    $ source /opt/carla-ros-bridge/melodic/setup.bash
-
-    $ export PYTHONPATH=$PYTHONPATH:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py2.7-linux-x86_64.egg
+    $ source /opt/carla-ros-bridge/melodic/setup.bash && export PYTHONPATH=$PYTHONPATH:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py2.7-linux-x86_64.egg
 
 Test ROS Bridge launch file:
 
