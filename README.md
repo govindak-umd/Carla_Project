@@ -91,4 +91,4 @@ Test ROS Bridge launch file:
 
  - To test ROS Bridge launch file:
 
-    $ roslaunch carla_ros_bridge carla_ros_bridge.launch
+        $ roslaunch carla_ros_bridge carla_ros_bridge.launch
