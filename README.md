@@ -14,10 +14,13 @@ Exact commands that were used are as follows:
 
 To launch the Simulation ,due to some driver issue on NVIDIA GTX950M, Instead of 
 
+    $ cd /opt/carla-simulator 
     $ ./CarlaUE4.sh
 
 try,
 
+
+    $ cd /opt/carla-simulator 
     $ ./CarlaUE4.sh -opengl
 
 
@@ -65,18 +68,15 @@ Create a new Conda environment with Python 2.7
 
     $ pip2 install opencv-python==4.2.0.32
 
-When done, do the following:
+When done, do the following to setup the environment:
 
     $ source /opt/carla-ros-bridge/melodic/setup.bash
 
     $ export PYTHONPATH=$PYTHONPATH:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py2.7-linux-x86_64.egg
 
-Test ROS Bridge launch file
+Test ROS Bridge launch file:
 
     $ roslaunch carla_ros_bridge carla_ros_bridge.launch
-
-
-
 
 
 ### Important Carla Commands
@@ -89,3 +89,6 @@ Test ROS Bridge launch file
  
         $ DISPLAY= ./CarlaUE4.sh -opengl
 
+ - To test ROS Bridge launch file:
+
+    $ roslaunch carla_ros_bridge carla_ros_bridge.launch
