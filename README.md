@@ -37,4 +37,8 @@ To do this, do the following steps:
 
 The latest Carla version requires Python 3.7. Download Anaconda and setup a Virtual Environment.
 
-Steps to download Anaconda can be foudn [here](https://docs.anaconda.com/anaconda/install/linux/).
+Steps to download Anaconda can be found [here](https://docs.anaconda.com/anaconda/install/linux/).
+
+### Step 5 - Verify all python installations
+
+Do this by shifting to **/opt/carla-simulator/PythonAPI/examples** directory and trying out the Python Example Scripts
