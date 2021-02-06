@@ -33,4 +33,8 @@ To do this, do the following steps:
 
     Software & Updates > Additional Drivers > Select the latest under NVIDIA
 
-### Step 3 - Verify the Python Version. Latest Carla requires Python 3.7.
+### Step 3 - Download Anaconda
+
+The latest Carla version requires Python 3.7. Download Anaconda and setup a Virtual Environment.
+
+Steps to download Anaconda can be foudn [here](https://docs.anaconda.com/anaconda/install/linux/).
