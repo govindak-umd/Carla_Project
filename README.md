@@ -48,7 +48,7 @@ Do this by shifting to **/opt/carla-simulator/PythonAPI/examples** directory and
 
 ### Step 6 - Setting up Ros bridge
 
-Visit the [link](https://carla.readthedocs.io/en/latest/ros_installation/) to setup ROS bridge.
+Visit this [link](https://carla.readthedocs.io/en/latest/ros_installation/) to setup ROS bridge.
 
 This is what worked for me:
 
